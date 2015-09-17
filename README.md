@@ -45,7 +45,7 @@ Called by plotting functions, tests what neurons participate in each syllable, a
 ###[HVCModelCode](https://github.com/emackev/HVCModelCode/blob/master/HVCModelCode.m)
 Generates Figure 5 a-d and Extended Data Figure 10 a-d. All in one .m file, including functions it depends on, for posting with the paper. 
 
-###[SigLatDistOverDev.m](https://github.com/emackev/HVCModelCode/blob/master/SigLatDistOverDev.m)
+###[sigLatDistOverDev.m](https://github.com/emackev/HVCModelCode/blob/master/sigLatDistOverDev.m)
 Latency distribution over development (Fig 5 e).
 
 ###[RunHVC_boutOnsetElement.m](https://github.com/emackev/HVCModelCode/blob/master/RunHVC_boutOnsetElement.m)
