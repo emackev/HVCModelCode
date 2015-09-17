@@ -38,12 +38,15 @@ Runs 1 iteration of the model.  See this file for step-by-step model dynamics an
 
 [plotHVCnet_boutOnset](https://github.com/emackev/HVCModelCode/blob/master/plotHVCnet_boutOnset.m)
 Plotting function for bout onset network diagram and raster.
-  
+
 [findLatency](https://github.com/emackev/HVCModelCode/blob/master/findLatency.m)
 Called by plotting functions, tests what neurons participate in each syllable, and at what latencies.
 
+###[HVCModelCode](https://github.com/emackev/HVCModelCode/blob/master/HVCModelCode.m)
+Generates Figure 5 a-d and Extended Data Figure a-d. All in one .m file, including functions it depends on, for posting with the paper. 
+
 ###[SigLatDistOverDev.m](https://github.com/emackev/HVCModelCode/blob/master/SigLatDistOverDev.m)
-Latency distribution over development
+Latency distribution over development (Fig 5 e).
 
 ###[RunHVC_boutOnsetElement.m](https://github.com/emackev/HVCModelCode/blob/master/RunHVC_boutOnsetElement.m)
 Bout onset element differentiation (EDF e-h)
