@@ -96,8 +96,8 @@ for seedi = 1:50
     bdyn = double(rand(n,nstepsSubsong)>=(1-pn)); % Random activation
     bdyn(1:k,:) = Input; 
     p.input = bdyn;
-    [w xdyn] = HVCBout(p);
-    LatencySubsong{seedi} = findHVClatency_new(xdyn, trainingNeurons); 
+    [w xdyn] = HVCIter(p);
+    LatencySubsong{seedi} = findLatency(xdyn, trainingNeurons); 
     % recovering original params
     p.eta = eta; 
     p.nsteps = nsteps; 
@@ -111,9 +111,9 @@ for seedi = 1:50
         p.w = w; 
         p.input = bdyn;
         % One 'bout' of learning
-        [w xdyn] = HVCBout(p);
+        [w xdyn] = HVCIter(p);
     end
-    LatencyEarlyPsyl{seedi} = findHVClatency_new(xdyn, trainingNeurons);
+    LatencyEarlyPsyl{seedi} = findLatency(xdyn, trainingNeurons);
     for i = (Niter(1)+1):Niter(2)
         % Construct input
         bdyn = double(rand(n,nsteps)>=(1-pn)); % Random activation
@@ -121,7 +121,7 @@ for seedi = 1:50
         p.w = w; 
         p.input = bdyn;
         % One 'bout' of learning
-        [w xdyn] = HVCBout(p);
+        [w xdyn] = HVCIter(p);
     end
     
     p.wmax = wmaxSplit;
@@ -135,9 +135,9 @@ for seedi = 1:50
         p.w = w; 
         p.input = bdyn;
         p.gamma = gammas(i); 
-        [w xdyn] = HVCBout(p);
+        [w xdyn] = HVCIter(p);
     end
-    LatencyLatePsyl{seedi} = findHVClatency_new(xdyn, trainingNeurons);
+    LatencyLatePsyl{seedi} = findLatency(xdyn, trainingNeurons);
     seedi
 end
 
