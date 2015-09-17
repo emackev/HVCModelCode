@@ -54,6 +54,7 @@ Bout onset element differentiation (EDF 10 e-h)
 ###[RunHVC_split_intoThree.m](https://github.com/emackev/HVCModelCode/blob/master/RunHVC_split_intoThree.m)
 Motif learning, (EDF 10 i-k)
 
+##To get movies: 
 ###[runHVC_split_movie.m](https://github.com/emackev/HVCModelCode/blob/master/runHVC_split_movie.m)
 Alternating differentiation movie for supp
 
