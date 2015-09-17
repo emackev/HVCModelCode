@@ -2,6 +2,13 @@ function HVCModelCode
 % Emily Mackevicius 7/18/2015, based on Hannah Payne's code
 % which builds off Ila Fiete's model, with help from Michale Fee and Tatsuo
 % Okubo. 
+%
+% This file will be posted as supplemental info for Okubo et al, and is 
+% formatted as one script to reproduce figure 5 a-d and extended data
+% figure 10 a-d.  More useable code (separated into different .m files),
+% and including code for the other figures and supplemental movies, can be 
+% found here: https://github.com/emackev/HVCModelCode
+
 %% *Alternating differentiation*
 % From subsong through protosyllable stage through splitting, 
 % to generate figure 5 a-d
