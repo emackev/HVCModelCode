@@ -9,7 +9,7 @@
 edit HVCIter
 %% To get paper figures:
 %% Alternating Differentiation
-% Code to generate figure 5 a-f, which shows alternating seed neuron 
+% Code to generate Figure 5 a-f, which shows alternating seed neuron 
 % differentiation, from subsong through protosyllable stage through 
 % splitting.
 
@@ -31,7 +31,7 @@ edit AlternatingDifferentiation  % run this file
                             % participate in each syllable, and at what latencies
                     
 %% Bout onset differentiation
-% Code to generate figure EDF a-d, which shows bout onset differentiation
+% Code to generate Figure EDF 10 a-d, which shows bout onset differentiation
 
 edit BoutOnsetDifferentiation    % run this file
 
