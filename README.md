@@ -58,7 +58,7 @@ Motif learning, (EDF 10 i-k)
 ###[runHVC_split_movie.m](https://github.com/emackev/HVCModelCode/blob/master/runHVC_split_movie.m)
 Alternating differentiation movie for supp
 
-###[boutOnsetDifferentiation_movie.m](https://github.com/emackev/HVCModelCode/blob/master/boutOnsetDifferentiation_movie.m)
+###[BoutOnsetDifferentiation_movie.m](https://github.com/emackev/HVCModelCode/blob/master/BoutOnsetDifferentiation_movie.m)
 Bout onset movie for supp
 
 ###[RunHVC_boutOnset_Movies](https://github.com/emackev/HVCModelCode/blob/master/RunHVC_boutOnset_Movies.m)
